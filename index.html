@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Countdown Examples 1</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<style>
+
+    .table {
+      display: table;
+      height: 100%;
+      margin: 0 auto;
+    }
+    .table-cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .centered {
+      background-color: red;
+			color:#FFF;
+    }
+  </style>
+
+
+
+</head>
+<body style="background-color:#EDEDED;">
+
+	<div class="table">
+	    <div class="table-cell"><div class="centered">
+
+				<h1>#5mytg</h1>
+				</div></div>
+	</div>
+
+<!-- START COUNTDOWN -->
+<script src="countdown.js" type="text/javascript"></script>
+
+<div class="container-fluid">
+  <div class="row">
+
+	<script type="application/javascript">
+
+		var myCountdownTest = new Countdown({
+											year	: 2020,
+											month	: 7,
+											day		: 12,
+											width	: 800,
+											height	: 150
+											});
+		</script>
+
+  </div>
+</div>
+
+
+</body>
+</html>
